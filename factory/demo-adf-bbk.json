@@ -1,0 +1,21 @@
+{
+	"name": "demo-adf-bbk",
+	"properties": {
+		"globalParameters": {
+			"email_recepient": {
+				"type": "string",
+				"value": "boddubharath100998@gmail.com"
+			}
+		},
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "199c87f4-bcf6-4b71-9671-42406a4e7a62",
+		"tenantId": "1258701e-b282-41fc-8a4f-d28fe37ad2e1"
+	}
+}
