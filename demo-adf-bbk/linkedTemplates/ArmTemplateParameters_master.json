@@ -1,0 +1,33 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "demo-adf-bbk"
+		},
+		"LS_SQLSERVER_password": {
+			"value": ""
+		},
+		"LS_ADLS_properties_typeProperties_url": {
+			"value": "https://demobharathadls.dfs.core.windows.net/"
+		},
+		"LS_SQLSERVER_properties_typeProperties_server": {
+			"value": "demo-bbk.database.windows.net"
+		},
+		"LS_SQLSERVER_properties_typeProperties_database": {
+			"value": "demo_sql_db"
+		},
+		"LS_SQLSERVER_properties_typeProperties_userName": {
+			"value": "boddu9797"
+		},
+		"tgr_event_simple_properties_typeProperties_scope": {
+			"value": "/subscriptions/6d3dd380-bc79-4bc6-b731-b6c621058cbb/resourceGroups/BharathRG/providers/Microsoft.Storage/storageAccounts/demobharathadls"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
